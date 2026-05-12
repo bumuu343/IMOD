@@ -12,14 +12,14 @@ st.write("Sistem pangkalan data pengurusan maklumat mineral perindustrian.")
 def load_data():
     data = {
         "ID": ["001", "002", "003"],
-        "Nama Mineral": ["Batu Kapur (Limestone)", "Kaolin", "Pasir Silika (Quartz)"],
-        "Kategori": ["Karbonat", "Tanah Liat", "Silikat"],
-        "Kekerasan (Mohs)": [3.0, 2.0, 7.0],
-        "Formula Kimia": ["CaCO3", "Al2Si2O5(OH)4", "SiO2"],
-        "Aplikasi Utama": [
-            "Pembuatan Simen, Agen Fluks, Pertanian",
-            "Salutan Kertas, Seramik, Farmaseutikal",
-            "Pembuatan Kaca, Pasir Foundri, Fracking"
+        "Mineral Name": ["Limestone (Calcite)", "Kaolin (Kaolinite)", "Silica Sand (Quartz)"],
+        "Category": ["Carbonates", "Phyllosilicates (Clays)", "Tectosilicates (Silicates)"],
+        "Hardness (Mohs)": [3.0, 2.0, 7.0],
+        "Chemical Formula": ["CaCO3", "Al2Si2O5(OH)4", "SiO2"],
+        "Primary Application": [
+            "Cement manufacturing, steel smelting flux, agriculture",
+            "Pharmaceutical excipients, cosmetics, paper coating",
+            "Refractory materials, silicon metal ore, glassmaking"
         ]
     }
     return pd.DataFrame(data)
