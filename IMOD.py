@@ -67,3 +67,14 @@ if pilihan_mineral:
     with colB:
         st.write(f"**Skala Mohs:** {profil['Hardness (Mohs)']}")
         st.write(f"**Aplikasi:** {profil['Primary Application']}")
+
+# 7. Rujukan Akademik (References)
+st.divider()
+st.subheader("📚 Rujukan (References)")
+st.markdown("""
+Data yang terkandung di dalam **Industrial Mineral Open-Database (IMOD)** ini diekstrak dan disokong oleh sumber akademik berwibawa berikut:
+
+* **Awad, M. E., López-Galindo, A., Setti, M., El-Rahmany, M. M., & Iborra, C. V. (2017).** Kaolinite in pharmaceutics and biomedicine. *International Journal of Pharmaceutics, 533*, 34–48. https://doi.org/10.1016/j.ijpharm.2017.09.056
+* **Götze, J., Pan, Y., & Müller, A. (2021).** Mineralogy and mineral chemistry of quartz: A review. *Mineralogical Magazine, 85*, 639–664. https://doi.org/10.1180/mgm.2021.72
+* **Kogel, J. E., Trivedi, N. C., Barker, J. M., & Krukowski, S. T. (Eds.). (2006).** *Industrial Minerals & Rocks: Commodities, Markets, and Uses* (7th ed.). Society for Mining, Metallurgy, and Exploration (SME).
+""")
